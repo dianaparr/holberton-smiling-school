@@ -172,3 +172,97 @@ The mobile version must be the same as the Homepage - it’s time to reuse code!
 ![pricing-header](img/0-pricing.png)
 
 <br />
+
+**:bulb: [8. Prices grid](1-pricing.html)**
+
+Create the prices grid.
+
+**Desktop:**
+
+![prices-grid-desktop](img/1-pricing_desktop.png)
+
+**Mobile:**
+
+![prices-grid-mobile](img/1-pricing_mobile.png)
+
+<br />
+
+**:bulb: [9. Quotes section](2-pricing.html)**
+
+Same as the Homepage, create the Carousel of quotes
+
+<br />
+
+**:bulb: [10. FAQ](3-pricing.html)**
+
+Create the FAQ grid
+
+**Desktop:**
+
+![faq-pricing-desktop](img/3-pricing_desktop.png)
+
+**Mobile:**
+
+![faq-pricing-mobile](img/3-pricing_mobile.png)
+
+<br />
+
+**:bulb: [11. Close the page with a footer](pricing.html)**
+
+Same as Homepage, create the footer
+
+<br />
+
+**:bulb: [12. Courses - header](0-courses.html)**
+
+Now, let’s do the courses page: create the header/hero piece
+
+The mobile version must be the same as the Homepage - it’s time to reuse code!
+
+![courses-desktop](img/0-courses.png)
+
+<br />
+
+**:bulb: [13. Search filters](1-courses.html)**
+
+Create the search filters section
+
+Dropdown is a nice way to create filters.
+
+For the selected/placeholder value of both dropdown, no need to have dynamic value - static content is totally ok.
+
+**Desktop:**
+
+![dropdown-desktop](img/1-dropdown-desktop.gif)
+
+**Tablet/Mobile:**
+
+![dropdown-tablet-mobile](img/1-dropdown-tablet-mobile.gif)
+
+<br />
+
+**:bulb: [14. List of result](2-courses.html)**
+
+Create the result section of courses
+
+You can reuse the same cell for testing. Don’t forget to test with odd and even number of cells.
+
+![result-section-courses](img/2-result_courses.gif)
+
+<br />
+
+**:bulb: [15. Close the page with a footer](courses.html)**
+
+Same as Homepage and Pricing page, create the footer
+
+<br />
+
+## Design by:
+
+**:woman: Diana Parra**
+
+:green_book: [GitHub](https://github.com/dianaparr/)
+
+:bird: [Twitter](https://twitter.com/dianaparra017)
+
+:wave: [LinkedIn](https://www.linkedin.com/in/dev-diana-parra/)
