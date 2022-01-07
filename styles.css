@@ -1,0 +1,112 @@
+/* Variables
+============================= */
+:root {
+    --font-family-base: "Source Sans Pro", sans-serif;
+    --text-color: #FFFFFF;
+    --color-primary: #C271FF;
+    --color-black: #090909;
+    --color-white: #FFFFFF;
+
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+
+    --font-size-xsmall: 12px;
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+    --font-size-large: 32px;
+
+    --line-height-xsmall: 15px;
+    --line-height-button: 18px;
+    --line-height-medium: 20px;
+    --line-height-large: 40px;
+    --line-height-base: 26px;
+
+    --button-hover-active-opacity: 0.9;
+}
+
+/* Helpers
+============================= */
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.off-screen {
+    left: -100vw;
+    position: absolute;
+}
+
+.skip-link {
+    background: var(--color-black);
+    color: var(--color-white);
+    left: 0;
+    padding: .7rem;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    z-index: 10;
+    transform: translateY(-1rem);
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+}
+
+.skip-link:focus {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Base
+============================= */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    color: var(--text-color);
+    font-family: var(--font-family-base);
+    background-color: #F2F2F2;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--color-primary);
+}
+
+.header {
+    background-image: url(images/pic_1.jpg);
+    background-repeat: no-repeat;
+    /* background-position: right center bottom; */
+    max-width: 100%;
+    height: 100vh;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.logo-header {
+    width: 168px;
+    height: 30px;
+}
+
+.header-logo {
+    flex-basis: 70%;
+}
+
+
