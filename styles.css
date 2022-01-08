@@ -8,18 +8,19 @@
     --color-white: #FFFFFF;
 
     --font-weight-normal: 400;
-    --font-weight-bold: 700;
 
     --font-size-xsmall: 12px;
     --font-size-small: 14px;
     --font-size-medium: 16px;
     --font-size-large: 32px;
+    --font-size-xlarge: 120px;
 
     --line-height-xsmall: 15px;
     --line-height-button: 18px;
     --line-height-medium: 20px;
     --line-height-large: 40px;
     --line-height-base: 26px;
+    --line-height-xlarge: 151px;
 
     --button-hover-active-opacity: 0.9;
 }
@@ -119,6 +120,17 @@ a:hover, a:active {
     width: 100%;
     padding-right: 0;
     padding-left: 0;
+}
+
+.section-title {
+    font-size: var(--font-size-xlarge);
+    line-height: var(--line-height-xlarge);
+    margin-top: 130px;
+    margin-bottom: 0;
+}
+
+.hero-section li {
+    font-size: var(--font-size-medium);
 }
 
 @media screen and (max-width: 1024px) {
