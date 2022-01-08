@@ -126,11 +126,31 @@ a:hover, a:active {
     font-size: var(--font-size-xlarge);
     line-height: var(--line-height-xlarge);
     margin-top: 130px;
-    margin-bottom: 0;
+    margin-bottom: -12px;
 }
 
 .hero-section li {
     font-size: var(--font-size-medium);
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+}
+
+.btn-primary:hover, .btn-primary:active {
+    opacity: var(--button-hover-active-opacity);
+    background-color: var(--color-primary);
+}
+
+.btn p {
+    font-size: var(--font-size-small);
+    font-weight: 600;
+    line-height: var(----line-height-button);
+}
+
+.hero-section button {
+    margin: 30px auto 40px;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
 }
 
 @media screen and (max-width: 1024px) {
