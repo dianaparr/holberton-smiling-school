@@ -157,6 +157,9 @@ a:hover, a:active {
 
 /* Pros section
 ============================= */
+li.col {
+    padding-bottom: 40px;
+}
 
 li.col img {
     width: 150px;
@@ -168,7 +171,23 @@ span.pros-title {
 }
 
 .pros-section h2 {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.col p {
+    margin-bottom: 0;
+    font-size: var(--font-size-medium);
+}
+
+.col p.name-pro {
+    font-size: 18px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
