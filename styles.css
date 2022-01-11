@@ -195,11 +195,19 @@ span.pros-title {
         background-color: #071629;
     }
 
+    .container {
+        max-width: 576px;
+    }
+
     .section-title {
-        font-size: 61px;
-        line-height: 77px;
-        margin-top: 280px;
+        font-size: 100px;
+        line-height: 97px;
+        margin-top: 270px;
         margin-bottom: 10px;
+    }
+
+    .row-cols-sm-4>* {
+        max-width: 100%;
     }
 
     .row {
