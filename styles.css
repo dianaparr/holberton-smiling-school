@@ -152,8 +152,8 @@ a:hover, a:active {
 
 /* Pros section
 ============================= */
-li.col {
-    padding-bottom: 40px;
+li.col-lg {
+    padding-bottom: 60px;
 }
 
 li.col-lg img {
@@ -178,10 +178,6 @@ span.pros-title {
     font-size: 18px;
 }
 
-ul.pros-img {
-    padding-bottom: 10rem;
-}
-
 @media screen and (max-width: 1024px) {
     .header-logo {
         flex-basis: 70%;
@@ -190,5 +186,16 @@ ul.pros-img {
     .header {
         background-position: center;
         background-position-y: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-color: #071629;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
     }
 }
