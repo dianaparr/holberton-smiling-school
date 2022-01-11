@@ -107,12 +107,7 @@ a:hover, a:active {
 }
 
 .header-logo {
-    flex-basis: 75%;
-}
-
-.nav-link {
-    display: block;
-    padding: 0.5rem 2rem 0 3.3rem;
+    flex-basis: 80%;
 }
 
 .container {
@@ -161,7 +156,7 @@ li.col {
     padding-bottom: 40px;
 }
 
-li.col img {
+li.col-lg img {
     width: 150px;
     height: 150px;
 }
@@ -183,11 +178,8 @@ span.pros-title {
     font-size: 18px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 0;
+ul.pros-img {
+    padding-bottom: 10rem;
 }
 
 @media screen and (max-width: 1024px) {
