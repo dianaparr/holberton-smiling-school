@@ -154,6 +154,7 @@ a:hover, a:active {
 ============================= */
 li.col-lg {
     padding-bottom: 60px;
+    flex-basis: 0;
 }
 
 li.col-lg img {
@@ -192,6 +193,13 @@ span.pros-title {
 @media screen and (max-width: 576px) {
     .header {
         background-color: #071629;
+    }
+
+    .section-title {
+        font-size: 61px;
+        line-height: 77px;
+        margin-top: 280px;
+        margin-bottom: 10px;
     }
 
     .row {
