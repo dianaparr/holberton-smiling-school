@@ -151,6 +151,10 @@ span.pros-title {
     color: var(--color-primary);
 }
 
+.title-pros {
+    font-size: var(--font-size-large);
+}
+
 .pros-section h2 {
     margin-bottom: 100px;
 }
@@ -175,6 +179,47 @@ span.pros-title {
     font-size: 22px;
     line-height: 33.6px;
     margin-left: -50px;
+}
+
+/* Carousel tutorials section
+============================= */
+
+.bg-tutorials {
+    background-color: #FFFFFF;
+}
+
+.tutorials-title {
+    font-size: var(--font-size-large);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.play-icon {
+    margin: -110px 0 0 95px;
+}
+
+.card-video {
+    width: 255px;
+    height: 355px;
+}
+
+.card-body .title-card {
+    margin-top:45px;
+    font-size: var(--font-size-medium);
+    line-height: 20px;
+}
+
+.card-body span {
+    font-size: var(--font-size-small);
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.title-view {
+    color: var(--color-primary);
+    font-size: var(--font-size-small);
+    line-height: 27px;
+    font-weight: 600;
 }
 
 @media screen and (max-width: 1200px) {
