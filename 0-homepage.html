@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel='stylesheet' href='holberton_school-icon/style.css'>
 </head>
 <body>
     <!-- Skip links -->
@@ -28,39 +29,39 @@
             </li>
         </ul>
     </nav>
-    <!-- Small devices (landscape phones, 576px and up) -->
-
-
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <div class="header-container d-flex align-items-center p-5">
-                <div class="header-logo">
-                <a href="/">
-                    <div class="logo-header d-flex">
-                        <img class="p-2" src="images/smile_off.png" alt="smile-icon"/>
-                        <img class="p-2" src="images/logo.png" alt="smile-school-logo" />
-                    </div>
+            <nav class="navbar navbar-expand-sm bg-transparent">
+                <button class="navbar-toggler mt-4" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="holberton_school-icon-menu text-white"></span>
+                </button>
+                <a href="#" class="navbar-brand text-center d-sm-none mx-auto">
+                    <img src="images/smile_off.png" alt="smile" class="ml-n5 my-4" width="30" height="23">
+                    <div></div>
+                    <img src="images/logo.png" alt="logo" class="ml-n5" width="115" height="30">
                 </a>
-            </div>
-                <input class="menu-btn" type="checkbox" id="menu-btn" />
-                <label class="menu-icon" for="menu-btn">
-                <span class="navicon"></span>
-                </label>
-            <nav class="navbar-menu" id="a11y-primary-nav" tabindex="-1">
-            <ul class="nav d-flex justify-content-between">
-                <li class="nav-item mr-2">
-                    <a href="#" class="nav-link">COURSES</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">PRICING</a>
-                </li>
-                <li class="nav-item ml-2">
-                    <a href="#" class="nav-link">LOGIN</a>
-                </li>
-            </ul>
+                <a class="navbar-brand d-none d-sm-block" href="#">
+                    <img class="m-3" src="images/smile_off.png" width="37" height="30" alt="Smile">
+                    <img src="images/logo.png" width="115" height="30" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav d-sm-none">
+                        <div class="d-sm-none mx-auto mt-3">
+                            <a class="nav-link text-white text-center" href="#courses">COURSES</a>
+                            <a class="nav-link text-white text-center" href="#pricing">PRICING</a>
+                            <a class="nav-link text-white text-center" href="#login">LOGIN</a>
+                        </div>
+                    </div>
+                    <div class="d-none d-sm-block ml-auto">
+                        <div class="navbar-nav">
+                            <a class="nav-link text-white mr-5" href="#courses">COURSES</a>
+                            <a class="nav-link text-white mr-5" href="#pricing">PRICING</a>
+                            <a class="nav-link text-white" href="#login">LOGIN</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
-            </div>
             <!-- Hero section -->
             <div class="hero-section text-center" id="a11y-main-content">
                 <h1 class="d-flex justify-content-center section-title font-weight-bold">Get shooled</h1>
