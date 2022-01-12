@@ -124,7 +124,7 @@ a:hover, a:active {
     background-color: var(--color-primary);
 }
 
-.btn p {
+.btn-text p {
     font-size: var(--font-size-small);
     font-weight: 600;
     line-height: var(----line-height-button);
