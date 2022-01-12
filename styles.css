@@ -89,8 +89,8 @@ a:hover, a:active {
 
 .header {
     background-image: url(images/pic_1.jpg);
-    background-repeat: no-repeat;
     background-position: center;
+    background-repeat: no-repeat;
     background-position-y: 0;
     max-width: 100%;
 }
@@ -164,6 +164,19 @@ span.pros-title {
     font-size: 18px;
 }
 
+/* Carousel section
+============================= */
+
+.bg-carousel {
+    background-color: var(--color-primary);
+}
+
+.info-carousel p {
+    font-size: 22px;
+    line-height: 33.6px;
+    margin-left: -50px;
+}
+
 @media screen and (max-width: 1200px) {
     .header-logo {
         flex-basis: 70%;
@@ -203,5 +216,9 @@ span.pros-title {
     ul.pros-img li {
         margin-left: 3rem;
         margin-right: 3rem;
+    }
+
+    .info-carousel p {
+        margin-left: -5px;
     }
 }
