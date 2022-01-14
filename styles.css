@@ -296,6 +296,20 @@ p.name-pro {
     background-color: #071629;
 }
 
+/* FAQ section
+============================= */
+
+.title-faq {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+}
+
+.text-faq {
+    font-size: var(--font-size-small);
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.501584);
+}
+
 /* Footer
 ============================= */
 
