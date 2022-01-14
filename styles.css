@@ -223,6 +223,11 @@ p.name-pro {
     font-weight: 600;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /* Free membership section
 ============================= */
 
