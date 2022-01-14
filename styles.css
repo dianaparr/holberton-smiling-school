@@ -8,6 +8,7 @@
     --color-white: #FFFFFF;
 
     --font-weight-normal: 400;
+    --font-weight-semi-bold: 600;
 
     --font-size-xsmall: 12px;
     --font-size-small: 14px;
@@ -188,6 +189,26 @@ span.pros-title {
 .col p.name-pro,
 p.name-pro {
     font-size: 18px;
+}
+
+/* Pricing section
+============================= */
+
+.btn-pricing {
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-button);
+}
+
+.title-pricing {
+    font-size: 44px;
+    line-height: 56px;
+}
+
+.sub-pricing {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-xsmall);
+    opacity: 0.5;
 }
 
 /* Carousel section
