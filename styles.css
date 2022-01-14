@@ -87,10 +87,17 @@ a:hover, a:active {
     color: var(--color-primary);
 }
 
-.header {
+.header-homepage {
     background-image: url(images/pic_1.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    background-position-y: 0;
+    max-width: 100%;
+}
+
+.header-pricing {
+    background-image: url(images/pic_2.jpg);
+    background-position: center;
     background-position-y: 0;
     max-width: 100%;
 }
