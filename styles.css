@@ -164,7 +164,8 @@ span.pros-title {
     font-size: var(--font-size-medium);
 }
 
-.col p.name-pro {
+.col p.name-pro,
+p.name-pro {
     font-size: 18px;
 }
 
@@ -220,6 +221,13 @@ span.pros-title {
     font-size: var(--font-size-small);
     line-height: 27px;
     font-weight: 600;
+}
+
+/* Free membership section
+============================= */
+
+.bg-free-membership {
+    background-color: #071629;
 }
 
 @media screen and (max-width: 1200px) {
