@@ -97,6 +97,7 @@ a:hover, a:active {
 
 .header-pricing {
     background-image: url(images/pic_2.jpg);
+    background-color: #071629;
     background-position: center;
     background-position-y: 0;
     max-width: 100%;
@@ -140,6 +141,19 @@ a:hover, a:active {
 .hero-section button {
     margin: 30px auto 160px;
     filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+h3.title-hero-pricing {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-large);
+    padding-top: 180px;
+}
+
+h1.big-title {
+    font-size: 60px;
+    line-height: 76px;
+    padding-top: 75px;
+    padding-bottom: 55px;
 }
 
 /* Pros section
