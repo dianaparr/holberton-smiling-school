@@ -173,6 +173,32 @@ h1.big-title {
     padding-bottom: 55px;
 }
 
+/* Search section
+============================= */
+
+.title-search {
+    font-size: var(--font-size-xsmall);
+    line-height: var(--line-height-xsmall);
+}
+
+.input-color,
+.input-color:focus {
+    background-color: #d195ff;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.input-color::placeholder {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.icon-search {
+    font-size: 28px;
+    padding-top: 10px;
+}
+
 /* Pros section
 ============================= */
 li.col-lg {
