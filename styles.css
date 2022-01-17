@@ -108,9 +108,9 @@ a:hover, a:active {
 .header-courses {
     background-image: url(/images/pic_3.jpg);
     background-color: #071629;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
-    background-position-y: 1;
+    background-position-y: 0;
     max-width: 100%;
 }
 
@@ -197,6 +197,15 @@ h1.big-title {
 .icon-search {
     font-size: 28px;
     padding-top: 10px;
+}
+
+.title-button {
+    background-color: #d195ff;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 29px;
+    padding-bottom: 8px;
+    padding-top: 8px;
 }
 
 /* Pros section
