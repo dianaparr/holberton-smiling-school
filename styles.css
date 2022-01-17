@@ -210,6 +210,19 @@ h1.big-title {
     line-height: 29px;
     padding-bottom: 8px;
     padding-top: 8px;
+    cursor: pointer;
+}
+
+/* List of result videos
+============================ */
+.number-videos {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+    color: rgba(7, 22, 41, 0.296247);
+}
+
+.number-videos:hover {
+    text-decoration: underline;
 }
 
 /* Pros section
