@@ -199,8 +199,12 @@ h1.big-title {
     padding-top: 10px;
 }
 
-.title-button {
+.title-button,
+.option-style,
+.option-style:active,
+.option-style:focus {
     background-color: #d195ff;
+    color: #ffffff;
     font-size: 23px;
     font-weight: 300;
     line-height: 29px;
