@@ -105,6 +105,15 @@ a:hover, a:active {
     max-width: 100%;
 }
 
+.header-courses {
+    background-image: url(/images/pic_3.jpg);
+    background-color: #071629;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: 1;
+    max-width: 100%;
+}
+
 .container {
     width: 100%;
     padding-right: 0;
@@ -119,6 +128,12 @@ a:hover, a:active {
     line-height: var(--line-height-xlarge);
     margin-top: 130px;
     margin-bottom: -12px;
+}
+
+.section-title-courses {
+    font-family: Coiny;
+    font-size: var(--font-size-large);
+    line-height: 35px;
 }
 
 .hero-section li {
