@@ -144,7 +144,7 @@ a:hover, a:active {
     background-color: var(--color-primary);
 }
 
-.btn-primary:hover, .btn-primary:active {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     opacity: var(--button-hover-active-opacity);
     background-color: var(--color-primary);
 }
